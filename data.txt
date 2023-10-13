@@ -1,0 +1,23 @@
+db.name.insert({
+    'name':'Moumita',
+    'City':'Kolkata',
+})
+
+db.name.insertMany([{
+    'name':'Moumita',
+    'City':'Kolkata',
+},
+{
+    'name':'Moumita',
+    'City':'Kolkata',
+},
+{
+    'name':'Moumita',
+    'City':'Kolkata',
+}
+])
+
+#to list all rows of collection   
+
+db.collectioname.find()
+
